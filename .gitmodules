@@ -1,1 +1,4 @@
 
+[submodule "app/template"]
+	path = app/template
+	url = git@github.com:preusx/stem.git
