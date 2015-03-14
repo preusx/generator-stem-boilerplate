@@ -1,0 +1,9 @@
+*.sublime-workspace
+docs/**/*.html
+
+tmp-*
+
+bower_components
+node_modules
+dist
+src
