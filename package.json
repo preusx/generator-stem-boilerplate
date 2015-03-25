@@ -1,6 +1,6 @@
 {
   "name": "generator-stem-boilerplate",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Yeoman Generator for stem frontend workspace",
   "main": "app/index.js",
   "repository": {
