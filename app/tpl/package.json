@@ -1,0 +1,23 @@
+{
+  "name": "<%= _.slugify(appname) %>",
+  "version": "0.0.1",
+  "homepage": "https://github.com/<%= opts.githubUser %>/<%= _.slugify(appname) %>",
+  "description": "",
+  "keywords": [
+    "",
+    "",
+    ""
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/<%= opts.githubUser %>/<%= _.slugify(appname) %>.git"
+  },
+  "author": {
+    "name": "<%= opts.realname %>",
+    "email": "<%= opts.email %>",
+    "url": "<%= opts.githubUrl %>"
+  },
+  "scripts": <%= JSON.stringify(opts.pkg.scripts || {}, null, 2) %>,
+  "devDependencies": <%= JSON.stringify(opts.pkg.devDependencies || {}, null, 2) %>,
+  "dependencies": <%= JSON.stringify(opts.pkg.dependencies || {}, null, 2) %>
+}
